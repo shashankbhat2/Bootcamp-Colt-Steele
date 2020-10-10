@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+
+/* .container{
+    width: 50em;
+    height: 500px;
+    margin: 10px 10px 20px 10px;
+    border: 5px solid purple ;
+}
+
+/* p{
+    aligns text to left, right and center
+    text-align: right; 
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: capitalize;
+    text-decoration: double;
+} */
+
+/*CSS positioning - box model*/
+
+/* .para{
+    border: 2px solid red;
+    padding: 10px;
+    width: 50%;
+    margin: 10px;
+    font-family: Secular One;
+} */
+
+/* Inneficiant Method */
+
+/* tr:nth-of-type(1) td:nth-of-type(2){
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+}
+
+tr:nth-of-type(2) td:nth-of-type(1){
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+tr:nth-of-type(2) td:nth-of-type(2){
+    border: 2px solid black;
+}
+
+
+tr:nth-of-type(2) td:nth-of-type(3){
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+tr:nth-of-type(3) td:nth-of-type(2){
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+} */
+
+
+/* Eficiant Method */
+
+table{
+    padding: 100px;
+    margin: auto;
+}
+
+h1{
+    text-align: center;
+}
+td{
+    padding: 100px;
+}
+
+.horizontal {
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+.vertical{
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+}
