@@ -1,0 +1,53 @@
+body{
+    font-family: Raleway, Georgia, 'Times New Roman', Times, serif !important;
+}
+
+label{
+    font-weight: 500;
+    color: bisque;
+}
+
+h1{
+    color: wheat;
+    font-weight: 700 !important;
+}
+
+.jumbotron{
+    background-color: black !important;
+}
+
+.btn{
+    color: whitesmoke !important;
+    width: 150px;
+    background-color: blue !important;
+    font-weight: 600 !important;
+}
+
+input{
+    border: none !important;
+    border-radius: none !important;
+}
+
+input:focus{
+    border-color: none !important;
+}
+
+input:active{
+    border-color: none !important; 
+}
+
+.navbar-brand{
+    color: steelblue !important;
+    font-weight: bold;
+    font-size: 30px !important;
+}
+
+a{
+    font-weight: bold;
+    color: teal !important;
+    text-decoration: none;
+}
+
+.navbar{
+    background-color: transparent!important;
+}

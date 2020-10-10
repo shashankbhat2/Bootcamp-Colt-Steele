@@ -1,0 +1,33 @@
+body{
+    font-family: Kumbh Sans, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif !important;
+}
+
+
+.jumbotron{
+    background-color: steelblue !important;
+    color: white !important;
+    font-weight: 900 !important;
+}
+
+
+img{
+    height: 150px;
+}
+
+.thumbnail{
+    border: none !important;
+}
+
+.navbar-inverse{
+    border-radius: none !important;
+    border: none !important;
+}
+
+.navbar{
+    margin-top: 10px !important;
+}
+
+.navbar-brand{
+    color: gray;
+    font-weight: 900;
+}

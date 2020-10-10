@@ -1,0 +1,74 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Kumbh Sans, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif !important;
+    background-position: center;
+}
+
+.navbar{
+    border: none !important;
+    margin-top: 30px !important;
+    background: none !important;
+}
+
+.navbar-brand{
+    font-size: 30px !important;
+    font-weight: 900;
+    color: gray !important;
+}
+
+
+.navbar-toggle{
+    margin-top: -10px !important;
+    border: none !important;
+}
+
+.navbar-collapse{
+    border: none !important;
+}
+.navbar-toggle:hover, .navbar-toggle:active, .navbar-toggle:focus{
+    background-color: transparent !important;
+}
+a{
+    font-size: 18px !important;
+    color: gray;
+    text-decoration: none !important;
+}
+
+.hero{
+    background: url("https://images.unsplash.com/photo-1511275539165-cc46b1ee89bf?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 100px;
+}
+
+.content{
+    color: white;
+    padding-top: 10%;
+    font-family: Kumbh Sans;
+    text-align: center;
+}
+
+.bdl{
+    border: 1px solid white;
+    font-weight: 900;
+    color: white !important;
+    background-color: transparent !important;
+    -webkit-box-shadow: 33px 33px 22px -19px rgba(184,184,184,0.74);
+    -moz-box-shadow: 33px 33px 22px -19px rgba(184,184,184,0.74);
+    box-shadow: 33px 33px 22px -19px rgba(184,184,184,0.74);
+}
+
+hr{
+    width: 200px;
+    margin: auto
+}
+
+.footer{
+    margin-top: 50px;
+}
+
