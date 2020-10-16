@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300;400;500&display=swap');
+
+img{
+    width: 30%;
+    float: left;
+    margin: calc(10%/6);
+}
+
+nav{
+    border-bottom: 1px solid black;
+    font-family: Poppins;
+    font-weight: 500;
+    margin-left: 2%;
+    text-align: left;
+    width: 30%;
+    text-transform: uppercase;
+    padding: 20px 0;
+}
+
+nav > span{
+    background: black;
+    margin: 30px auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: white;
+}
+
+.att{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: IBM PLex Mono, 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 500;
+}
+
+.att > a {
+    text-decoration: none;
+    color: gray;
+}
