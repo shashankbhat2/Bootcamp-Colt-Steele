@@ -1,4 +1,4 @@
-const logger = require('nodelogeasy')
+const logger = require('nodelogeasy') //using my own console.log methods
 //var & const
 const pi = 3.14
 var a = 2 + pi;
@@ -25,4 +25,11 @@ logger.log(Math.pow(0,0))
 logger.log('hello')
 logger.errorlog('error!')
 logger.warnlog('warn')
+
 //Conditionals
+logger.log('Before')
+if(1 + 2 === 2){
+    logger.warnlog('Wrong Conditional');
+}
+logger.log('After')
+
