@@ -209,7 +209,7 @@ while(count < 10){
     }
 }
 
-funtions 
+// funtions 
 function rollDie(){
     return Math.floor(Math.random()*6 + 1);
 }
@@ -218,7 +218,7 @@ console.log(rollDie())
 
 
 
-var a = 'sex'.trim().toString().trimEnd().trimStart()
+var a = 'hello'.trim().toString().trimEnd().trimStart()
 
 console.log(a)
 
@@ -233,9 +233,9 @@ function repeatString(str, num){
 
 console.log(repeatString('Hello ', 5))
 
-note: return key word stops the execution
+// note: return key word stops the execution
 
-Function Scope
+// Function Scope
 
 function collectEggs(){
     let totalEggs = 6;
@@ -245,7 +245,7 @@ collectEggs();
 console.log(totalEggs) //
 
 
-Block scope
+// Block scope
 let radius = 8;
 if(radius > 0){
     const pi = 3.14;
@@ -256,9 +256,9 @@ console.log(radius)
 console.log(pi) // pi is only valid in the block (between {})
 
 
-note: Block scoping is only valid for let and const;
+// note: Block scoping is only valid for let and const;
 
-Lexical Scope
+// Lexical Scope
 function bankRobbery(){
     const heroes = ['Supe', 'Homelander', 'Bats', 'Wonder Women']
     function cryForHelp(){
@@ -272,14 +272,14 @@ function bankRobbery(){
 bankRobbery()
 
 
-Function expressions
+// Function expressions
 const square = function (num){
     return num * num;
 }
 
 c.log(square(5))
 
-Higher Order Functions
+// Higher Order Functions
  
 function  callTwice(func){
     func();
@@ -294,7 +294,7 @@ function rolldie(){
 callTwice(rolldie); // executes the function arguement 
 
 
-Returning a function as a value
+// Returning a function as a value
 
 function makeMysteryFunc(){
    const rand = Math.random();
@@ -325,7 +325,7 @@ const isNotMature = makeBetweenFunc(0,18) //Factory Function
 
 console.log(isNotMature(1))
 
-Methods
+// Methods
 
 const myMath = {
     pi: 3.14,
@@ -337,7 +337,7 @@ const myMath = {
     }
 }
 
-this keyword
+// this keyword
 
 const cat = {
     name: 'Jack',
@@ -360,8 +360,8 @@ try{
     //errors
 }
 
-Callbacks and Array Methods
-forEach, map, some & every, filter, reduce, arrow functions.
+// Callbacks and Array Methods
+// forEach, map, some & every, filter, reduce, arrow functions.
 
 
 
@@ -369,7 +369,7 @@ const numbers = [1,2,3,4,5,6]
 
 // function print(e){
 //     console.log(e)
-}
+
 
 numbers.forEach(function(el){
     console.log(el)
@@ -403,7 +403,7 @@ movie.forEach(function(m){
     console.log(`${m.title} - ${m.score}`)
 })
 
-map
+// map
 const texts = ['lol', 'rofl','lmao', 'ttyl', 'fomo'];
 const caps = texts.map(function(t){
     return t.toUpperCase();
@@ -453,7 +453,8 @@ const ticket = movie.map(function(m){
 
 console.log(ticket)
 
-Arrow Functions
+// Arrow Functions
+
 const square = (n) => {
     return n*n;
 }
@@ -471,7 +472,7 @@ const rolldie = () => {
 console.log(rolldie())
 
 
-Implicit Returns - not include return (only in const => function and one evalutaion expression)
+// Implicit Returns - not include return (only in const => function and one evalutaion expression)
 
 const rollDie = () => (
     Math.floor(Math.random()*6) + 1
@@ -510,7 +511,8 @@ console.log(cinema)
 console.log(Cinema)
 
 
-Time Methods
+// Time Methods
+
 setTimeout(() => {
     window.alert("hello")
 }, 200)  //function and time to run it runs once 
@@ -569,7 +571,7 @@ function validUsernames(str){
 
 console.log(validUsernames(string))
 
-Some and Every 
+// Some and Every 
 
 const scores = [80, 90, 23, 100, 95, 70, 65]
 
@@ -583,7 +585,7 @@ function allEvens(arr){
 console.log(allEvens(numbers))
 
 
-Reduce - Execute a reducer function on each element of the array.
+// Reduce - Execute a reducer function on each element of the array.
 
 const numbers = [3405, 2045,2349, 248923];
 
@@ -591,7 +593,7 @@ const reducedNums = numbers.reduce((accumulator, currentValue)=> {
     return accumulator + currentValue;
 }) //Adds all the numbers
 
-Basically saves the previous value and creates a new value
+// Basically saves the previous value and creates a new value
 
 console.log(reducedNums)
 
@@ -621,8 +623,9 @@ const person = {
 
 console.log(person.fullName2())
 
-default params for functions 
-old way
+// default params for functions 
+// old way
+
 function rolldie(num){
     if(num === undefined){
         num  = 6 //default 
@@ -640,7 +643,7 @@ function rolldie2(a=6){
 
 console.log(rolldie2())
 
-Spread
+// Spread
 
 
 const numbers = [1,2,3,5,6]
@@ -650,7 +653,7 @@ const myMax = (...x) => {
 console.log(myMax(...numbers))
 
 
-Array with spread
+// Array with spread
 
 const cats = ['Blue', 'Scott', 'Grey']
 const dogs = ['Rusty', 'Reacty', 'Vuey']
@@ -658,21 +661,22 @@ const dogs = ['Rusty', 'Reacty', 'Vuey']
 const allPets = [...cats, ...dogs]
 console.log(allPets)
 
-Spread with objects
+// Spread with objects
 
 const feline = {legs: 4, family:"Felidae"};
 const canine = {legs: 4, family:"Caninae"}
 const catDog = {...feline,...canine};
 console.log(catDog)
 
-Rest params
+// Rest params
 
 function sum(...nums){
     return nums.reduce((total, n) => total + n)
 }
 //Rest params - infinite params :D
 console.log(sum(23,244,556,6))
-Named params 
+
+// Named params 
 
 function raceResults(gold, silver, ...participants){
     console.log(`Gold medal goes to: ${gold}`);
@@ -683,7 +687,7 @@ function raceResults(gold, silver, ...participants){
 console.log(raceResults('Shashank', 'Suman',['Shashank R', 'Nikhil', 'Ramya']))
 
 
-Destructuring Arrays / Objects 
+// Destructuring Arrays / Objects 
 
 const scores = [929321, 89931, 8883559, 388830, 3993]
 const runner = {
@@ -699,7 +703,7 @@ console.log(deathYear)
 console.log(highscore, midscore, lowscore)
 
 
-Destructuring params
+// Destructuring params
 const user = {
     firstName: 'Shashank',
     lastName: 'Bhat'
