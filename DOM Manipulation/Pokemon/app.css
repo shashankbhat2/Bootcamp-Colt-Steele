@@ -5,3 +5,16 @@
 .pokemon img {
     display: block;
 }
+
+div{
+    display: inline-block;
+    text-align: center;
+}
+
+img{
+    display: block;
+}
+
+h1{
+    text-align: center;
+}
