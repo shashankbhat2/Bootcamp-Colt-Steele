@@ -1,0 +1,15 @@
+.opinion-card{
+    list-style: none;
+    background-color: white;
+    width: 500px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.username{
+    color: green;
+    font-weight: 500;
+}
+
+.opinion{ 
+    color: blue;
+}

@@ -55,16 +55,35 @@
 // }
 
 //parentElement
-const firstBold = document.querySelector('b')
-firstBold.parentElement.classList.add('purple')
+// const firstBold = document.querySelector('b')
+// firstBold.parentElement.classList.add('purple')
 
-//Create element
-const h1 = document.createElement('h1')
-h1.innerText="Hello"
-document.body.appendChild(h1)
+// //Create element
+// const h1 = document.createElement('h1')
+// h1.innerText="Hello"
+// document.body.appendChild(h1)
 
-//Prepend ELement
-const name = document.querySelector('.Name')
-const h2 = document.createElement('h2')
-h2.innerText="Hello!";
-name.prependChild(h2)
+// //Prepend ELement
+// const name = document.querySelector('.Name')
+// const h2 = document.createElement('h2')
+// h2.innerText="Hello!";
+// name.prependChild(h2)
+
+
+//AppendChild
+// for(let i=0; i<100; i++){
+// const button = document.createElement('button')
+// button.innerText="Hello"
+// const container = document.querySelector('.container')
+// container.appendChild(button);
+// }
+
+//Remove Child 
+// const ul = firstLI.parentELement()
+
+// ul.removeChild(fir)
+
+//Remove 
+
+// const img = document.querySelector('img')
+// img.remove()  
