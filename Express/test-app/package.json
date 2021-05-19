@@ -1,0 +1,11 @@
+{
+  "scripts": {
+    "start": "nodemon commentsApp.js -e ejs,js,css,html,jpg,png,scss"
+  },
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "node-localstorage": "^2.1.6",
+    "reload": "^3.1.1"
+  }
+}

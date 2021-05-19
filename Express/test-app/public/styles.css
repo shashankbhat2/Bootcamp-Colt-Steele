@@ -1,0 +1,45 @@
+body{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+
+h1{
+    color: #101D65 !important;
+}
+
+.logo{
+    margin: 10px 10px;
+    color: white;
+}
+.opinion-card{
+    background-color: #101D65 !important;
+    color: white;
+}
+.new-opinion-card{
+    margin: 30px 0;
+    padding: 20px;
+}
+
+.custom-input{
+    border: none !important;
+    background-color: whitesmoke !important;
+}
+.custom-input::placeholder{
+    color: black !important;
+}
+.opinion-submit{
+    background-color: cornflowerblue !important;
+    color: white !important;
+}
+
+.helper-text{
+    color: #101D65 !important;
+    font-weight: 500;
+}
+
+.dev-name{
+    line-height: 2.5em;
+    border-bottom: 1px lightblue solid;
+}
